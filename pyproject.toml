@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fnetreal-featplat_jd163"
+name = "fnetreal-batch_scheduling_throughput_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告特征平台工程师·批处理调度与吞吐折中相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://fnetreal.github.io"
-Repository = "https://github.com/fnetreal/featplat_jd163"
-Issues = "https://github.com/fnetreal/featplat_jd163/issues"
+Repository = "https://github.com/fnetreal/batch_scheduling_throughput_pattern_locate"
+Issues = "https://github.com/fnetreal/batch_scheduling_throughput_pattern_locate/issues"
 
 [project.scripts]
-featplat_jd163 = "featplat_jd163:main"
+batch_scheduling_throughput_pattern_locate = "batch_scheduling_throughput_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["featplat_jd163"]
+py-modules = ["batch_scheduling_throughput_pattern_locate"]
